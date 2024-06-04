@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}   
+body{
+     font-family: "calibri light";
+}   
+.contenedor{
+    background: tomato;
+    width: 80%;
+    margin: auto;
+}
+header{
+        height: 400px;
+        background-image: url('../imagenes/portadacielo.jpg');
+        background-position: center;
+        background-size: cover;
+}
+main{
+     background:rgb(155, 47, 47);
+     padding: 20px 30px;
+
+}
+main .foto{
+     width: 150px;
+     height: 150px;
+     background-color: rgb(20, 152, 77);
+     border-radius: 50%;
+     margin: -90px 0 20px 0;
+     border: 6px solid #382019;
+}
+main .foto img{
+     width: 150px;
+     border-radius: 50%;
+}
+
+
+footer{
+     background:teal ;
+     text-align: center;
+     padding: 25px;
+     color:#000000
+}
+
+.boton a{
+      background: rgb(5, 75, 11);
+      text-decoration: nome; /*Quita subrayado*/
+      color:rgb(45, 136, 159);
+      font-size: 18px;
+      display: block;
+      padding: 15px 10px;
+      border-radius: 5px;
+      width: 100px;
+      margin: 0 auto;
+      text-align: center;
+}
+
+.boton a:hover{
+      background: rgb(207, 166, 42);
+}
+
+footer{
+     background: #630909;
+     padding: 10px;
+}
